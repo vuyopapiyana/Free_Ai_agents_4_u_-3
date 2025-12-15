@@ -2,11 +2,9 @@ import sqlite3
 import json
 from typing import List
 from datetime import datetime
-from dataclasses import dataclass
 from dotenv import load_dotenv
 from pydantic_ai import Agent
 from pydantic_ai.messages import ModelMessage, ModelResponse, ModelRequest, TextPart, UserPromptPart, SystemPromptPart
-import os
 
 load_dotenv()
 

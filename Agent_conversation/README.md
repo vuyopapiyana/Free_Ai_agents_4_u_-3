@@ -1,0 +1,1 @@
+File saves a simple chatbot/agent's chat history in a sqlite3 database. Uses pydantic ai, uv-python  
